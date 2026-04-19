@@ -11,7 +11,7 @@ python = "^3.9"
 flask = ">=2.0.0"
 marshmallow = ">=3.0.0"
 sqlalchemy = ">=1.4.44"
-pamfilico-flask-core = {git = "https://github.com/pamfilico/flask-core.git", rev = "6e147664904de434a075a1e7c1f61abf70f7c9df"}
+pamfilico-flask-core = {git = "https://github.com/pamfilico/flask-core.git", branch = "main"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = ">=7.0.0"
