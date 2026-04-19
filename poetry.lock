@@ -571,8 +571,8 @@ files = [
 
 [[package]]
 name = "pamfilico-flask-core"
-version = "1.0.0"
-description = "Standard response envelope, error classes, pagination, and filtering for Flask APIs"
+version = "1.1.0"
+description = "Standard response envelope and error classes for Flask APIs"
 optional = false
 python-versions = "^3.9"
 groups = ["main"]
@@ -588,8 +588,8 @@ werkzeug = ">=2.0.0"
 [package.source]
 type = "git"
 url = "https://github.com/pamfilico/flask-core.git"
-reference = "main"
-resolved_reference = "70ccf5aae8174bde36bbfe1ab30b91208c9c9118"
+reference = "6e147664904de434a075a1e7c1f61abf70f7c9df"
+resolved_reference = "6e147664904de434a075a1e7c1f61abf70f7c9df"
 
 [[package]]
 name = "pluggy"
@@ -978,4 +978,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9"
-content-hash = "b977683c7a486e9f4a731c250b49b6f8cb36faed10c3abb204b41e6862a98530"
+content-hash = "baa280f3369375818d87360316b4747e86623c6e0fc81d8ea11d971973120f1c"
