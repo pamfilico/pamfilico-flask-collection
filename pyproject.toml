@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pamfilico-flask-collection"
-version = "1.1.0"
+version = "1.1.1"
 description = "Collection decorator with pagination, search, sorting, and filtering for Flask + SQLAlchemy APIs"
 authors = ["Pamfilico"]
 readme = "README.md"
@@ -11,7 +11,7 @@ python = "^3.9"
 flask = ">=2.0.0"
 marshmallow = ">=3.0.0"
 sqlalchemy = ">=1.4.44"
-pamfilico-flask-core = {git = "https://github.com/pamfilico/flask-core.git", tag = "v1.2.1"}
+pamfilico-flask-core = {git = "https://github.com/pamfilico/flask-core.git", tag = "v1.3.0"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = ">=7.0.0"
